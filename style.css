@@ -1,0 +1,280 @@
+#wrapper {
+    width: 970px;
+    background-color: #2f5174;
+}
+
+#header {
+    height: 500px;
+}
+
+.phyton_logo {
+    display: inline-block;
+    height: 120px;
+}
+
+.search_box {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 0px 0px 0px 200px;
+    vertical-align: top;
+}
+
+.text_size {
+    display: inline-block;
+    margin: 2px 30px;
+    text-align: left;
+}
+
+.text_size p {
+    display: inline-block;
+    color: white;
+    margin: 0px 4px 0px 70px;
+    text-align: left;
+    padding-left: 2px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.text_size a:link {
+    display: inline-block;
+    color: #ffd561;
+    margin: 0px 4px 0px 4px ;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 13px;
+
+}
+
+.form {
+    display: inline-block;
+    width: 370px;
+    height: 100px;
+    margin: 3px;
+}
+
+.go {
+    font-size: 11pt;
+    font-weight: 100;
+    padding: 8px 12px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #2f5173;
+    color: #FFF;
+    border-top: 2px white solid;
+    border-left: 2px white solid;
+    border-right: 2px grey solid;
+    border-bottom: 2px grey solid;
+    font-family: sans-serif;
+}
+
+#searchform {
+    font-family: sans-serif;
+    border-top: 2px grey solid;
+    border-left: 2px grey solid;
+    border-right: 2px darkgrey solid;
+    border-bottom: 2px darkgrey solid;
+    height: 35px;
+    width: 170px;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.searchbar {
+    width: 300px;
+    background-color: #444444;
+    text-align: center;
+    padding: 10px 0px 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+}
+
+#nav {
+    background-color: #537ea9;
+    width: 845px;
+    margin-left: 70px;
+    border-radius: 6px;
+    height: 40px;
+    padding: 8px 0;
+    font-size: 9pt;
+    line-height: 15px;
+    color: #FFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#nav a {
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+#nav li {
+    display: inline;
+    margin: 18px;
+}
+
+#links {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 300px;
+    margin:20px;
+    margin-left: 5px;
+
+}
+
+#links a {
+    color: white;
+    font-size: 14pt;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+#links ul {
+    list-style-type: none;
+}
+
+#links li {
+    margin: 12px;
+}
+
+#links li::before {
+    content: "»";
+    color: #ffd561;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.content {
+    width: 580px;
+    height: 160px;
+    display: inline-block
+}
+
+.content p {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+
+}
+
+#phrases p {
+    text-align: center;
+    color: #ffd561;
+    font-size: 20px;
+}
+
+#zen p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+}
+
+#getting_started {
+    width: 970px;
+    background-color: #FFF;
+}
+
+h1 {
+    font-size: 12pt;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#started {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 350px;
+    margin: 15px 20px 0 150px;
+    padding: 5px 0 10px 0;
+    font-size: 11pt;
+    font-weight: 100;
+    border-top: 4px #7da7d1 solid;
+}
+
+#started h1 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+
+#started_description ,  #apps_description{
+
+    width: 300px;
+ }
+
+#started_description ul, #apps_description ul {
+    padding-left: 20px;
+}
+
+#started_description ul a, #apps_description ul a {
+    font-size: 11pt;
+}
+
+#started_description a, #apps_description a {
+    color: #86add4;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#started_description li, #apps_description li {
+    margin-top: 3px;
+}
+
+#apps {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 400px;
+    margin: 15px 20px 0 0px;
+    padding: 5px 0 10px 0;
+    font-size: 11pt;
+    font-weight: 100;
+    border-top: 4px #7da7d1 solid;
+
+
+
+}
+
+#apps h1 {
+    font-size: 14pt;
+    font-weight: bold;
+
+}
+
+#footer {
+    width: 970px;
+    height: 110px;
+    background: #2f5174;
+    background: linear-gradient(#2f5174, #4576a8);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#footer li {
+    display: inline-block;
+    padding: 40px 20px 15px 20px;
+}
+
+#footer li a {
+     color: #86add4;
+     text-decoration: none;
+     font-size: 15pt;
+     margin-bottom:50;
+     
+
+}
+
+.copyright {
+    font-size: 10pt;
+    color: #86add4;
+}
